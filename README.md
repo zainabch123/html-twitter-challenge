@@ -8,6 +8,11 @@ This will put into practice everything we have learned so far about HTML & CSS. 
 
 ![twitter clone](images/example.png)
 
+## Setup
+1. Fork this repository to your account.
+2. Clone the forked repository to your local machine
+3. Open a Pull Request back to the upstream repo
+
 ## Instructions
 - Use the HTML elements you've learned about to so far to define the page content
 - Use an external CSS stylesheet to style the page
@@ -20,10 +25,9 @@ This will put into practice everything we have learned so far about HTML & CSS. 
 - Work section by section until it looks good
 
 ## Assesment Criteria
-* &#9745; Layout the main page elements (left-hand menu, tweet feed and right side-bar) using CSS Grid.
-* &#9745; Define the page contents using properly structured HTML with appropriate elements
-* &#9745; Use CSS Grid to layout the elements of individual components on the page, such as the tweets
-* &#9745; Style the page using a mixture of CSS selectors types and combine selectors where appropriate to avoid duplication
+* &#9745; Layout the main page elements (left-hand menu, tweet feed and right side-bar) using CSS Grid. CSS Grid should also be used to layout individual tweets.
+* &#9745; Define the page contents using HTML with appropriate elements. HTML should be well formatted.
+* &#9745; Style the page using a mixture of Type, ID and Class CSS selector types
 * &#9745; Implement hover and selected state for the left-hand menu links.
 
 ### Extension Criteria
