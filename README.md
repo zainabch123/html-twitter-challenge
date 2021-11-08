@@ -14,7 +14,7 @@ This will put into practice everything we have learned so far about HTML & CSS. 
 3. Open a Pull Request back to the upstream repo
 
 ## Instructions
-- Use the HTML elements you've learned about to so far to define the page content
+- Use the HTML elements you've learned about so far to define the page content
 - Use an external CSS stylesheet to style the page
 - Use CSS Grid for the layout and components
 - You should start *without* images and then add them later at the end of the exercise once the basic criteria has been met
