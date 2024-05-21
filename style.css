@@ -154,7 +154,7 @@ main {
 .search-bar {
   height: 45px;
   width: auto;
-  background-color: lightgray;
+  background-color:lightgray;
   border-radius: 20px;
   margin: 4px 15px 20px 15px;
   display: grid;
@@ -179,7 +179,7 @@ main {
   padding: 10px 15px;
   border-radius: 20px;
   gap: 10px;
-  background-color: lightgrey;
+  background-color: rgba(206, 204, 204, 0.282);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: grid;
   grid-auto-flow: row;
@@ -190,11 +190,35 @@ main {
   padding: 10px 15px;
   border-radius: 20px;
   gap: 10px;
-  background-color: lightgrey;
+  background-color: rgba(206, 204, 204, 0.282);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: grid;
   grid-auto-flow: row;
   height: max-content;
+}
+.follow-profile {
+  display: grid;
+    grid-template-columns: 40px 1fr 70px;
+    grid-template-rows: 40px;
+    align-items: center;
+}
+.follow-button {
+  background-color: rgb(42, 181, 228);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+}
+.follow-profile p {
+  font-size: 14px;
+  margin-left: 3px;
+}
+.follow-profile span {
+  font-weight: bold;
 }
 .user-profile {
     display: grid;
@@ -209,7 +233,7 @@ main {
     border-radius: 50%;
     margin: 10px;
 }
-.profile-image2 img, .profile-image img {
+.profile-image2 img, .profile-image img, .profile-image3 img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -217,6 +241,10 @@ main {
 .user-profile p {
     grid-column: 2 / span 1;
     margin: 15px 5px;
+}
+.user-profile span {
+  color: black;
+  font-weight: bold;
 }
 .Tweet1, .Tweet2 {
   display: grid;
